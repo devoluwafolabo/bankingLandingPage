@@ -1,0 +1,212 @@
+.navbar{
+    background-color: rgba(7, 43, 25, 0.796);
+    padding: 2rem 5rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+    color: rgb(9, 199, 57);
+  
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a .a{
+    color: rgb(9, 199, 57);
+  
+}
+#navbarSupportedContent > button{
+    background: rgb(9, 199, 57);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    border-radius: 30px;
+}
+.min{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.min video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    color: rgb(9, 199, 57);
+}
+.hero a{
+    color: white;
+    background: rgb(9, 199, 57);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.about{
+    background: black;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: rgb(9, 199, 57);
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+}
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+.about .text p{
+    color: #F7F5F4;
+
+    font-size: 1.1rem;
+
+}
+.about .text a{
+background: rgb(9, 199, 57);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    border-radius: 30px;
+}
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.discovery .text h6{
+    color: rgb(9, 199, 57);
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+}
+.discovery .text h2{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+.discovery .text p{
+    color: #000000;
+
+    font-size: 1.1rem;
+
+}
+.discovery .text a{
+background: rgb(9, 199, 57);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    border-radius: 30px;
+}
+.service{
+    background: black;
+}
+.service .one{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.team .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.one{
+    border-radius: 30px;
+}
+.team .text h6{
+    color: rgb(9, 199, 57);
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+}
+.team .text h2{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+.team .text p{
+    color: #000000;
+
+    font-size: 1.1rem;
+
+}
+.team .text a{
+background: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    color: white;
+    border-radius: 30px;
+}
+
+body > footer {
+    background: black;
+}
+
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+    background: rgb(9, 199, 57);
+    font-weight: 600;
+    padding: 0.4rem 1.1rem;
+    border-radius: 30px;
+    border: none
+}
+@media screen and (max-width: 992px) {
+   .navbar{
+       padding: 1rem;
+   }
+   .navbarSupportedContent > ul{
+       padding-left: 00.8rem;
+   }
+   #navbarSupportedContent > ul > li:nth-child(n) > a{
+       padding: 0 0.8rem;
+   }
+  }
